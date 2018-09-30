@@ -20,7 +20,7 @@ class GroupsController extends Controller
     public function store(Request $request)
     {
         $this->validate($request, [
-            'nome' => 'required|unique:products|max:255',
+            'nome' => 'required|unique:groups|max:255',
             'descricao' => 'required'
         ]);
         
