@@ -36309,12 +36309,11 @@ var Main = function (_Component) {
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         'h3',
                         null,
-                        'Todos os Grupos'
+                        'Grupos Dispon\xEDveis'
                     ),
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         'ul',
                         null,
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__AddGroup__["a" /* default */], { onAdd: this.handleAddGroup }),
                         this.renderGroups(),
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__Group__["default"], { group: this.state.currentGroup })
                     )
@@ -57384,7 +57383,7 @@ var AddGroup = function (_Component) {
     return AddGroup;
 }(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
 
-/* harmony default export */ __webpack_exports__["a"] = (AddGroup);
+/* unused harmony default export */ var _unused_webpack_default_export = (AddGroup);
 
 /***/ }),
 /* 50 */

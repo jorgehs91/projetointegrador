@@ -10,6 +10,7 @@
     </head>
     <body>
         <div class="title">
+        <img src="{{ URL::asset('svg/logorunner.svg') }}" alt="">
             <h1>GroupRun</h1>
         </div>
         

@@ -68,10 +68,10 @@ export default class Main extends Component {
         return (
             <div>
                 <div>
-                    <h3>Todos os Grupos</h3>
+                    <h3>Grupos Disponíveis</h3>
                     
                     <ul>
-                        <AddGroup onAdd={ this.handleAddGroup } />
+                        {/* <AddGroup onAdd={ this.handleAddGroup } /> */}
                         { this.renderGroups() }
                         <Group group={this.state.currentGroup} />
                     </ul>
